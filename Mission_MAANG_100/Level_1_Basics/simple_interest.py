@@ -4,4 +4,4 @@ time_period = float(input("Enter the time period (in years): "))
 
 simple_interest = (principal_amount * rate_of_interest * time_period) / 100
 
-print(f"The simple interest is: {simple_interest}")
+print(f"The simple interest is: {simple_interest:.2f}")
