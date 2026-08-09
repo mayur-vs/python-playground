@@ -1,4 +1,4 @@
-car_speed_kmh = float(input("Enter the speed of the card in km/h: "))
+car_speed_kmh = float(input("Enter the speed of the car in km/h: "))
 
 car_speed_mps = car_speed_kmh * 1000 / 3600
 
