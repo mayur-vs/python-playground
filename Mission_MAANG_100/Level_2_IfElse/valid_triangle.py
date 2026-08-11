@@ -6,8 +6,8 @@ user_input_third_angle = int(input("Enter the Third angle of triangle: "))
 # Add all angles
 sum_of_angles = user_input_first_angle + user_input_second_angle + user_input_third_angle
 
-# Check sum_of_angles is equal to 180 or not
-if sum_of_angles == 180 :
+# Check sum_of_angles is equal to 180 or not and must each angle of triangle need to be greater than 0
+if (sum_of_angles == 180) and (user_input_first_angle > 0) and (user_input_second_angle > 0) and (user_input_third_angle > 0):
     print("Valid Triangle")
 else :
     print("It's not a Valid Triangle")
