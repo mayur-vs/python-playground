@@ -5,5 +5,7 @@ def fizz_buzz(number) :
         return "Fizz"
     elif number % 5 == 0 :
         return "Buzz"
+    else :
+        return number
 
-print(fizz_buzz(12))
+print(fizz_buzz(7))
