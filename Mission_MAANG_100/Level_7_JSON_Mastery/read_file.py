@@ -10,4 +10,4 @@ import json
 with open("data.json", "r") as file:
     employee = json.load(file)
 
-print(f"Name of Employee is {employee["name"]}")
+print(f"Name of Employee is {employee['name']}")
